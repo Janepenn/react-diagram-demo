@@ -6,12 +6,12 @@
     "start": "webpack serve",
     "build": "webpack",
     "lint:eslint": "eslint \"./src/**/*.js\" -c .eslintrc",
-    "lint:style-lint": "stylelint './src/**/*.js'",
+    "lint:stylelint": "stylelint './src/**/*.js'",
     "lint": "npm-run-all lint:*",
     "prettier": "prettier --write \"./src/**/*.js\""
   },
   "lint-staged": {
-    "{src,spec}/**/*.js": [
+    "./src/**/*.js": [
       "prettier --write",
       "eslint -c .eslintrc",
       "stylelint",
@@ -20,15 +20,21 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
+    "@babel/eslint-parser": "^7.19.1",
     "@babel/plugin-transform-runtime": "^7.19.6",
     "@babel/preset-env": "^7.20.2",
     "@babel/preset-react": "^7.18.6",
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
     "babel-loader": "^9.1.2",
     "clean-webpack-plugin": "^4.0.0",
     "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "html-webpack-plugin": "^5.5.0",
-    "husky": "^8.0.3",
+    "husky": "^3.0.9",
     "lint": "^0.8.19",
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.3",
