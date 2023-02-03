@@ -3,6 +3,7 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 // Paths
 const rootDirectory = path.resolve(__dirname, '.');
@@ -37,6 +38,9 @@ module.exports = {
       template: path.resolve(rootDirectory, 'public/index.html')
     }),
     new MiniCssExtractPlugin({ filename: '[name]-[contenthash].css' }),
+    new CopyWebpackPlugin({
+      patterns: [{ from: path.resolve(rootDirectory, 'static'), to: path.resolve(rootDirectory, 'dist/static') }]
+    }),
     new CleanWebpackPlugin()
   ],
   devServer: {

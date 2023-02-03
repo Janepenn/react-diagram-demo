@@ -19,10 +19,10 @@ const Diagram = () => {
 
   const initialModeler = async () => {
     modeler = new Modeler({
-      container: canvas?.current,
+      container: canvas.current,
       keyboard: { bindTo: document },
       propertiesPanel: {
-        parent: property?.current
+        parent: property.current
       },
       additionalModules: [BpmnPropertiesPanelModule, BpmnPropertiesProviderModule]
     });
