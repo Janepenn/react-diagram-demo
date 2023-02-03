@@ -2,6 +2,7 @@ const path = require('path');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 // Paths
 const rootDirectory = path.resolve(__dirname, '.');
@@ -19,6 +20,14 @@ module.exports = {
       {
         test: /\.jsx?$/,
         use: 'babel-loader'
+      },
+      {
+        test: /\.css|scss$/i,
+        use: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.bpmn$/,
+        type: 'asset/source'
       }
     ]
   },
@@ -27,6 +36,7 @@ module.exports = {
       filename: 'index.html',
       template: path.resolve(rootDirectory, 'public/index.html')
     }),
+    new MiniCssExtractPlugin({ filename: '[name]-[contenthash].css' }),
     new CleanWebpackPlugin()
   ],
   devServer: {

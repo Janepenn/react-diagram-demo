@@ -1,0 +1,17 @@
+.Modeler {
+  height: 100%;
+  display: flex;
+
+  &__canvas {
+    flex: auto;
+  }
+
+  &__property {
+    flex: none;
+    width: 300px;
+  }
+
+  .bjs-powered-by {
+    display: none;
+  }
+}
