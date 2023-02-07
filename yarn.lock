@@ -983,7 +983,7 @@
     "@babel/plugin-transform-react-jsx-development" "^7.18.6"
     "@babel/plugin-transform-react-pure-annotations" "^7.18.6"
 
-"@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.0", "@babel/runtime@^7.20.7", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.10.1", "@babel/runtime@^7.10.4", "@babel/runtime@^7.11.1", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.15.4", "@babel/runtime@^7.16.7", "@babel/runtime@^7.18.0", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.0", "@babel/runtime@^7.20.7", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.20.13"
   resolved "https://registry.npmmirror.com/@babel/runtime/-/runtime-7.20.13.tgz#7055ab8a7cff2b8f6058bf6ae45ff84ad2aded4b"
   integrity sha512-gt3PKXs0DBoL9xCvOIIZ2NEqAGZqHjAnmVbfQtB620V0uReIQutpel14KcneZuer7UioY8ALKZ7iocavvzTNFA==
@@ -1623,27 +1623,27 @@
     rc-trigger "^5.3.4"
     rc-util "^5.24.4"
 
-"@reactflow/background@11.1.5":
-  version "11.1.5"
-  resolved "https://registry.npmmirror.com/@reactflow/background/-/background-11.1.5.tgz#e96a9d6b7e43ca49b045e6c1774fdb8afda2a9ad"
-  integrity sha512-px9Wp25ia1euApTu0pQ9zsBJWVj4+VoXLYd7Hw2s7PtZYKOoTsjR0q6M1woQciUTcP9I7930Ot8wGbYhK/8asQ==
+"@reactflow/background@11.1.7":
+  version "11.1.7"
+  resolved "https://registry.npmmirror.com/@reactflow/background/-/background-11.1.7.tgz#c509ffe3a2b9f6e0338634962209c6e4f6fb08bc"
+  integrity sha512-ur7MznpW9T/YgvnOekPU1SAYguxuoMk9CTspUXbgL6cVP+U7mv4CWvd0EatgtwK1jDCRQzpVqCs0o5e/pBAvpA==
   dependencies:
-    "@reactflow/core" "11.5.2"
+    "@reactflow/core" "11.5.4"
     classcat "^5.0.3"
     zustand "^4.3.1"
 
-"@reactflow/controls@11.1.5":
-  version "11.1.5"
-  resolved "https://registry.npmmirror.com/@reactflow/controls/-/controls-11.1.5.tgz#bac303c28f2073c57f7c3947f218699771c7cea9"
-  integrity sha512-aXgLe3ZDaKfskWn4Hrv3ur3CtHKuayaI4N2/HJIjKjlhZWFOh4vBDpegRQyhqCxdfOM/fZbqKbfJ5kzlkMp10g==
+"@reactflow/controls@11.1.7":
+  version "11.1.7"
+  resolved "https://registry.npmmirror.com/@reactflow/controls/-/controls-11.1.7.tgz#68b96b90f3adff36c9a6b58a9a88d8787843ef01"
+  integrity sha512-MM4Gq9vlAJ5eiPbLBmbAm/DMhpc5gIDdkI3OuvMwQ5CHg4sK3S8N1LpwiOCIjLodYUBdinFP4jZdYp452oNHgw==
   dependencies:
-    "@reactflow/core" "11.5.2"
+    "@reactflow/core" "11.5.4"
     classcat "^5.0.3"
 
-"@reactflow/core@11.5.2":
-  version "11.5.2"
-  resolved "https://registry.npmmirror.com/@reactflow/core/-/core-11.5.2.tgz#b56ebc59759a8bb27ff28435293e94816324f841"
-  integrity sha512-AZghrSaj2VJzsVm3LhOWK8JVJF2alshibp9aNIV6qtcz4zMTIoyDtYcnKvENdlWAHiVscUzAiA071HUpeVgMOg==
+"@reactflow/core@11.5.4":
+  version "11.5.4"
+  resolved "https://registry.npmmirror.com/@reactflow/core/-/core-11.5.4.tgz#a4a6658ce8e6fbd60a4a3d9a3361de92d43bd441"
+  integrity sha512-nrYISMkCa7CdXV2VKqefAQ26hmQCjLfF/K6FBDr2DYM/YvuA7Us3DU1JnxlUB8PU2OmjBW9eU8HXGXSTYX7y8A==
   dependencies:
     "@types/d3" "^7.4.0"
     "@types/d3-drag" "^3.0.1"
@@ -1655,12 +1655,12 @@
     d3-zoom "^3.0.0"
     zustand "^4.3.1"
 
-"@reactflow/minimap@11.3.5":
-  version "11.3.5"
-  resolved "https://registry.npmmirror.com/@reactflow/minimap/-/minimap-11.3.5.tgz#8d886181828c946e3321c9bc612ee8c4b667b8fd"
-  integrity sha512-8Wi3nfc4mHrs55mM2GBPL3plfWe9n2wrF6RSFZw6HSWkoij3hfAR9tGPbyK5nFuzwGKyLfp3T/ou/YHypk7Tmg==
+"@reactflow/minimap@11.3.7":
+  version "11.3.7"
+  resolved "https://registry.npmmirror.com/@reactflow/minimap/-/minimap-11.3.7.tgz#7bec64a1c42786d59012e86a777424e140931cce"
+  integrity sha512-WpwnjYGUuV6I1WJF5YavFudk+G+wJkRvW9OCmmwI+L9fvn/QD6Xe6YAZeuB7nvaMkl0zBYTLPuFJqPvKpYHypQ==
   dependencies:
-    "@reactflow/core" "11.5.2"
+    "@reactflow/core" "11.5.4"
     "@types/d3-selection" "^3.0.3"
     "@types/d3-zoom" "^3.0.1"
     classcat "^5.0.3"
@@ -1668,12 +1668,12 @@
     d3-zoom "^3.0.0"
     zustand "^4.3.1"
 
-"@reactflow/node-toolbar@1.1.5":
-  version "1.1.5"
-  resolved "https://registry.npmmirror.com/@reactflow/node-toolbar/-/node-toolbar-1.1.5.tgz#c32f1ca85fde31e1987a1f52c82356cf3fbecb2f"
-  integrity sha512-vu2j9b2gO+SYPRrNI9KXkVlJdRkAcsKdKoJSBCunUdIVugCkaSTLiwpMjN7V21cgEPjtz5XocBh5bQS6hQNXHQ==
+"@reactflow/node-toolbar@1.1.7":
+  version "1.1.7"
+  resolved "https://registry.npmmirror.com/@reactflow/node-toolbar/-/node-toolbar-1.1.7.tgz#276e029dfc31a1d9de14c5106c1418cb95b49daf"
+  integrity sha512-RGpKDWCoZQmgDO9NYUiooIf9PjhZIeK6hsFc/2CpNr8mc6KNvZN3bWlUdB1tFzvH4NTGrj0JILozz10UQo6gIg==
   dependencies:
-    "@reactflow/core" "11.5.2"
+    "@reactflow/core" "11.5.4"
     classcat "^5.0.3"
     zustand "^4.3.1"
 
@@ -1995,6 +1995,14 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
+"@types/hoist-non-react-statics@^3.3.0":
+  version "3.3.1"
+  resolved "https://registry.npmmirror.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
+  integrity sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
+  dependencies:
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+
 "@types/html-minifier-terser@^6.0.0":
   version "6.1.0"
   resolved "https://registry.npmmirror.com/@types/html-minifier-terser/-/html-minifier-terser-6.1.0.tgz#4fc33a00c1d0c16987b1a20cf92d20614c55ac35"
@@ -2042,6 +2050,11 @@
   resolved "https://registry.npmmirror.com/@types/parse-json/-/parse-json-4.0.0.tgz#2f8bb441434d163b35fb8ffdccd7138927ffb8c0"
   integrity sha512-//oorEZjL6sbPcKUaCdIGlIUeH26mgzimjBB77G6XRgnDl/L5wOnpyBGRe/Mmf5CVW3PwEBE1NjiMZ/ssFh4wA==
 
+"@types/prop-types@*":
+  version "15.7.5"
+  resolved "https://registry.npmmirror.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
+  integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
+
 "@types/qs@*":
   version "6.9.7"
   resolved "https://registry.npmmirror.com/@types/qs/-/qs-6.9.7.tgz#63bb7d067db107cc1e457c303bc25d511febf6cb"
@@ -2052,10 +2065,34 @@
   resolved "https://registry.npmmirror.com/@types/range-parser/-/range-parser-1.2.4.tgz#cd667bcfdd025213aafb7ca5915a932590acdcdc"
   integrity sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==
 
+"@types/react-redux@^7.1.20":
+  version "7.1.25"
+  resolved "https://registry.npmmirror.com/@types/react-redux/-/react-redux-7.1.25.tgz#de841631205b24f9dfb4967dd4a7901e048f9a88"
+  integrity sha512-bAGh4e+w5D8dajd6InASVIyCo4pZLJ66oLb80F9OBLO1gKESbZcRCJpTT6uLXX+HAB57zw1WTdwJdAsewuTweg==
+  dependencies:
+    "@types/hoist-non-react-statics" "^3.3.0"
+    "@types/react" "*"
+    hoist-non-react-statics "^3.3.0"
+    redux "^4.0.0"
+
+"@types/react@*":
+  version "18.0.27"
+  resolved "https://registry.npmmirror.com/@types/react/-/react-18.0.27.tgz#d9425abe187a00f8a5ec182b010d4fd9da703b71"
+  integrity sha512-3vtRKHgVxu3Jp9t718R9BuzoD4NcQ8YJ5XRzsSKxNDiDonD2MXIT1TmSkenxuCycZJoQT5d2vE8LwWJxBC1gmA==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
 "@types/retry@0.12.0":
   version "0.12.0"
   resolved "https://registry.npmmirror.com/@types/retry/-/retry-0.12.0.tgz#2b35eccfcee7d38cd72ad99232fbd58bffb3c84d"
   integrity sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==
+
+"@types/scheduler@*":
+  version "0.16.2"
+  resolved "https://registry.npmmirror.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
+  integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
 "@types/serve-index@^1.9.1":
   version "1.9.1"
@@ -2977,7 +3014,7 @@ clone@^1.0.2:
   resolved "https://registry.npmmirror.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==
 
-clsx@^1.2.1:
+clsx@^1.1.1, clsx@^1.2.1:
   version "1.2.1"
   resolved "https://registry.npmmirror.com/clsx/-/clsx-1.2.1.tgz#0ddc4a20a549b59c93a4116bb26f5294ca17dc12"
   integrity sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==
@@ -3299,7 +3336,7 @@ cssesc@^3.0.0:
   resolved "https://registry.npmmirror.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
-csstype@^3.0.10:
+csstype@^3.0.10, csstype@^3.0.2:
   version "3.1.1"
   resolved "https://registry.npmmirror.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
   integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
@@ -4644,6 +4681,13 @@ hey-listen@^1.0.8:
   version "1.0.8"
   resolved "https://registry.npmmirror.com/hey-listen/-/hey-listen-1.0.8.tgz#8e59561ff724908de1aa924ed6ecc84a56a9aa68"
   integrity sha512-COpmrF2NOg4TBWUJ5UVyaCU2A88wEMkUPK4hNqyCkqHbxT92BbvfjoSozkAIIm6XhicGlJHhFdullInrdhwU8Q==
+
+hoist-non-react-statics@^3.3.0, hoist-non-react-statics@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.npmmirror.com/hoist-non-react-statics/-/hoist-non-react-statics-3.3.2.tgz#ece0acaf71d62c2969c2ec59feff42a4b1a85b45"
+  integrity sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==
+  dependencies:
+    react-is "^16.7.0"
 
 hosted-git-info@^2.1.4:
   version "2.8.9"
@@ -6550,7 +6594,7 @@ process-nextick-args@~2.0.0:
   resolved "https://registry.npmmirror.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
 
-prop-types@^15.8.1:
+prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.npmmirror.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -7031,15 +7075,54 @@ react-dom@^18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-draggable@^4.4.4:
+  version "4.4.5"
+  resolved "https://registry.npmmirror.com/react-draggable/-/react-draggable-4.4.5.tgz#9e37fe7ce1a4cf843030f521a0a4cc41886d7e7c"
+  integrity sha512-OMHzJdyJbYTZo4uQE393fHcqqPYsEtkjfMgvCHr6rejT+Ezn4OZbNyGH50vv+SunC1RMvwOTSWkEODQLzw1M9g==
+  dependencies:
+    clsx "^1.1.1"
+    prop-types "^15.8.1"
+
 react-fast-compare@^3.2.0:
   version "3.2.0"
   resolved "https://registry.npmmirror.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
   integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
 
-react-is@^16.12.0, react-is@^16.13.1:
+react-flow-renderer@^9.6.11:
+  version "9.7.4"
+  resolved "https://registry.npmmirror.com/react-flow-renderer/-/react-flow-renderer-9.7.4.tgz#11394c05ca953b650e2017d056c075fd3df9075c"
+  integrity sha512-GxHBXzkn8Y+TEG8pul7h6Fjo4cKrT0kW9UQ34OAGZqAnSBLbBsx9W++TF8GiULBbTn3O8o7HtHxux685Op10mQ==
+  dependencies:
+    "@babel/runtime" "^7.16.7"
+    classcat "^5.0.3"
+    d3-selection "^3.0.0"
+    d3-zoom "^3.0.0"
+    fast-deep-equal "^3.1.3"
+    react-draggable "^4.4.4"
+    react-redux "^7.2.6"
+    redux "^4.1.2"
+
+react-is@^16.12.0, react-is@^16.13.1, react-is@^16.7.0:
   version "16.13.1"
   resolved "https://registry.npmmirror.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
+
+react-is@^17.0.2:
+  version "17.0.2"
+  resolved "https://registry.npmmirror.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
+  integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
+
+react-redux@^7.2.6:
+  version "7.2.9"
+  resolved "https://registry.npmmirror.com/react-redux/-/react-redux-7.2.9.tgz#09488fbb9416a4efe3735b7235055442b042481d"
+  integrity sha512-Gx4L3uM182jEEayZfRbI/G11ZpYdNAnBs70lFVMNdHJI76XYtR+7m0MN+eAs7UHBPhWXcnFPaS+9owSCJQHNpQ==
+  dependencies:
+    "@babel/runtime" "^7.15.4"
+    "@types/react-redux" "^7.1.20"
+    hoist-non-react-statics "^3.3.2"
+    loose-envify "^1.4.0"
+    prop-types "^15.7.2"
+    react-is "^17.0.2"
 
 react-scrolllock@^5.0.1:
   version "5.0.1"
@@ -7060,16 +7143,16 @@ react@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
 
-reactflow@^11.5.3:
-  version "11.5.3"
-  resolved "https://registry.npmmirror.com/reactflow/-/reactflow-11.5.3.tgz#e10b37d14b05e3d3fa5dc879def1781cd9e08de8"
-  integrity sha512-NM4s8pkomcUnYwpT8p/ToTAbGL98Xzmc31uED5dbHndGS5D7L0QW25/fvFuaiKQ92hZQrFNWxvC1XsJ1QvMq8A==
+reactflow@^11.5.5:
+  version "11.5.5"
+  resolved "https://registry.npmmirror.com/reactflow/-/reactflow-11.5.5.tgz#64fbbd9309dfb384128871a4ae0021d9b0304490"
+  integrity sha512-ExOljG5ErSB8r5Dokto6hFYQq0TNnHl39ZLc19eSGDLXvZcHbBTefMmet9Z5Qlof1h9pB0/NdX8HD+fPwv98Fg==
   dependencies:
-    "@reactflow/background" "11.1.5"
-    "@reactflow/controls" "11.1.5"
-    "@reactflow/core" "11.5.2"
-    "@reactflow/minimap" "11.3.5"
-    "@reactflow/node-toolbar" "1.1.5"
+    "@reactflow/background" "11.1.7"
+    "@reactflow/controls" "11.1.7"
+    "@reactflow/core" "11.5.4"
+    "@reactflow/minimap" "11.3.7"
+    "@reactflow/node-toolbar" "1.1.7"
 
 read-pkg-up@^7.0.1:
   version "7.0.1"
@@ -7170,6 +7253,13 @@ redent@^3.0.0:
   dependencies:
     indent-string "^4.0.0"
     strip-indent "^3.0.0"
+
+redux@^4.0.0, redux@^4.1.2:
+  version "4.2.1"
+  resolved "https://registry.npmmirror.com/redux/-/redux-4.2.1.tgz#c08f4306826c49b5e9dc901dee0452ea8fce6197"
+  integrity sha512-LAUYz4lc+Do8/g7aeRa8JkyDErK6ekstQaqWQrNRW//MY1TvCEpMtpTWvlQ+FPbWCx+Xixu/6SHt5N0HR+SB4w==
+  dependencies:
+    "@babel/runtime" "^7.9.2"
 
 regenerate-unicode-properties@^10.1.0:
   version "10.1.0"
@@ -8462,6 +8552,11 @@ uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.npmmirror.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuid@^9.0.0:
+  version "9.0.0"
+  resolved "https://registry.npmmirror.com/uuid/-/uuid-9.0.0.tgz#592f550650024a38ceb0c562f2f6aa435761efb5"
+  integrity sha512-MXcSTerfPa4uqyzStbRoTgt5XIe3x5+42+q1sDuy3R5MDk66URdLMOZe5aPX/SQd+kuYAh0FdP/pO28IkQyTeg==
 
 v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
