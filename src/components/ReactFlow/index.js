@@ -7,14 +7,12 @@ import Modal from './components/Modal';
 import { FlowContextProvider } from './context';
 
 import './flow.scss';
-import Toolbar from './Toolbar';
 
 const FlowPage = () => {
   return (
     <div className="container">
       <FlowContextProvider>
         <ReactFlowProvider>
-          <Toolbar />
           <div className="main">
             <Sider />
             <Graph />

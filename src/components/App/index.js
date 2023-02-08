@@ -26,9 +26,9 @@ const App = () => {
           onChange={(value) => setType(value)}
           options={[
             { value: DIAGRAM_TYPE.BPMN, label: 'Bpmn' },
-            { value: DIAGRAM_TYPE.MXGRAPH, label: 'Mxgraph' },
-            { value: DIAGRAM_TYPE.REACT_FLOW, label: 'React flow' },
-            { value: DIAGRAM_TYPE.REAFLOW, label: 'Reaflow' }
+            // { value: DIAGRAM_TYPE.MXGRAPH, label: 'Mxgraph' },
+            { value: DIAGRAM_TYPE.REACT_FLOW, label: 'React flow' }
+            // { value: DIAGRAM_TYPE.REAFLOW, label: 'Reaflow' }
           ]}
         />
       </div>
